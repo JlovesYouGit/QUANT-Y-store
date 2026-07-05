@@ -1,0 +1,28 @@
+# Quantum Computing DevOps Toolchain Requirements
+
+# Core quantum computing frameworks
+qiskit>=0.45.0
+cirq>=1.2.0
+pyquil>=3.5.0
+
+# Quantum optimization libraries
+qiskit-optimization>=0.6.0
+pyzx>=0.7.0
+quantum-circuit-optimizer>=1.0.0
+
+# Quantum error correction
+qiskit-ignis>=0.7.0
+qec-framework>=1.0.0
+
+# DevOps tools
+ansible>=8.0.0
+docker>=6.0.0
+kubernetes>=26.0.0
+
+# Testing frameworks
+pytest>=7.0.0
+pytest-quantum>=1.0.0
+
+# Visualization and monitoring
+matplotlib>=3.7.0
+tensorboard>=2.13.0
